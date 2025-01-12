@@ -4,7 +4,7 @@ const Loader = () => {
     return (
         /* From Uiverse.io by AkshatDaxini */ 
     <div className="my-20 flex justify-center">
-       <div class="main">
+       <div className="main">
   <svg
     width="168"
     height="158"

@@ -7,6 +7,7 @@ import api from "./utils/api";
 import { useEffect } from "react";
 import { getRestaurants, } from "./redux/actions/restActions";
 import Restaurant from "./pages/Restaurant";
+import { getCart } from "./redux/actions/basketActions";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
   //thunk ile
   useEffect(() => {
     dispatch(getRestaurants());
+    dispatch(getCart());
   }, []);
 
 
